@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generates posts about trends in the crypto space, price updates for the most followed currencies, important news about the crypto market";
+    "generates posts about trends in the crypto space, price updates for the most followed currencies, important news about the crypto market, use trend hastags and emoji";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
